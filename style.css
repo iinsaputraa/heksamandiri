@@ -1,0 +1,45 @@
+.size{
+	height: 70px;
+}
+
+.size h4 {
+	padding-top: 20px;
+}
+
+.sidebar {
+	margin-top: -28px;
+	
+	position: fixed;
+	width: 250px;
+	height: 575px;
+	padding-top: 20px;
+}
+
+.container {
+	width: auto;
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 50px;
+}
+
+@media (max-width: 576px) {
+	.sidebar {
+		width: 80px;
+	}
+
+	.sidebar a {
+		font-size: 12px;
+	}
+
+	.container {
+
+		margin-top: 80px;
+		width: auto;
+		margin-left: 80px;
+		margin-right: -1px;
+	}
+
+	p {
+		font-size: 12px;
+	}
+}
