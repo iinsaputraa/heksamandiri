@@ -580,11 +580,15 @@ form label {
 #gtco-testimonial,
 #gtco-services,
 #gtco-subscribe,
-#gtco-footer,
 .gtco-section {
   padding: 7em 0;
   clear: both;
 }
+
+#gtco-footer {
+  padding: 2em 0;
+}
+
 @media screen and (max-width: 768px) {
   #gtco-features,
   #gtco-features-2,
@@ -901,6 +905,7 @@ form label {
 }
 
 #gtco-footer .gtco-footer-links {
+
   padding: 0;
   margin: 0 0 20px 0;
   float: left;
