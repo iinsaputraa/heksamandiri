@@ -1,5 +1,5 @@
 .footer{
-  background: #F85A16;;
+  background: #F85A16;
   color:white !important;
   
   .links {
@@ -27,7 +27,7 @@
       transition: color .2s;
       
       &:hover{
-        color:#white
+        color:#fff;
       }
       }
   } 
