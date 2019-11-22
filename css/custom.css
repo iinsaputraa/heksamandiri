@@ -32,17 +32,36 @@
       }
   } 
 
-  .location{
-    i{font-size: 18px;}
-  }
+    .location{
+      i{font-size: 18px;}
+    }
 
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
-}
+      .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+    }
 
-.links ul li a {
-  color: white;
-}
+      .links ul li a {
+        color: white;
+      }
 
-.links ul li a:hover{
-  color: black;
-} 
+      .links ul li a:hover{
+        color: black;
+      } 
+
+
+      /*Video*/
+      .container-video {
+        height: 420px;
+      }
+
+      .container-video .row {
+        padding: 50px;
+        display: block;
+      }
+
+      @media screen and (max-width: 768px) {
+        .container-video iframe {
+          max-width: 100%; 
+          display:block; 
+          height: auto;
+        }
+        /*Akhir Video*/
