@@ -64,4 +64,21 @@
           display:block; 
           height: auto;
         }
-        /*Akhir Video*/
+        /*services*/
+        .pdf {
+          width: 100%;
+          height: 300px;
+        }
+        .pdf embed {
+          width: 80%;
+          height: 250px;
+        }
+
+        }
+
+      @media screen and (max-width: 395px) {
+        .container-video iframe {
+          max-width: 100%; 
+          display:block; 
+          height: auto;
+        }
