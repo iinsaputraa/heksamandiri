@@ -45,7 +45,13 @@
 
       .links ul li a:hover{
         color: black;
-      } 
+      }
+
+      a:active, a:focus {
+        color: black !important;
+      }
+
+
 
 
       /*Video*/
@@ -58,22 +64,16 @@
         display: block;
       }
 
+      .content-pdf {
+        width: 100%;
+        margin: 0 auto;
+      }
+
       @media screen and (max-width: 768px) {
         .container-video iframe {
           max-width: 100%; 
           display:block; 
           height: auto;
-        }
-        /*services*/
-        .pdf {
-          width: 100%;
-          height: 300px;
-        }
-        .pdf embed {
-          width: 80%;
-          height: 250px;
-        }
-
         }
 
       @media screen and (max-width: 395px) {
@@ -82,3 +82,4 @@
           display:block; 
           height: auto;
         }
+        /*Akhir Video*/
