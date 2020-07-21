@@ -581,8 +581,15 @@ form label {
 #gtco-services,
 #gtco-subscribe,
 .gtco-section {
-  padding: 7em 0;
+  padding: 1em 0;
   clear: both;
+}
+
+.valign {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #gtco-footer {
@@ -694,7 +701,7 @@ form label {
 }
 
 .gtco-heading {
-  margin-bottom: 5em;
+  margin-bottom: 4em;
 }
 .gtco-heading.gtco-heading-sm {
   margin-bottom: 2em;
@@ -710,6 +717,10 @@ form label {
   font-size: 18px;
   line-height: 1.5;
   color: #828282;
+}
+
+.jumbotron .container p{
+  font-size: 17px;
 }
 
 #gtco-testimonial {
